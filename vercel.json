@@ -1,7 +1,35 @@
 {
   "rewrites": [
     {
-      "source": "/[^.]+",
+      "source": "/",
+      "destination": "/"
+    },
+    {
+      "source": "/auth/login",
+      "destination": "/"
+    },
+    {
+      "source": "/auth/registration",
+      "destination": "/"
+    },
+    {
+      "source": "/users/:id",
+      "destination": "/"
+    },
+    {
+      "source": "/users/:id/settings",
+      "destination": "/"
+    },
+    {
+      "source": "/premium",
+      "destination": "/"
+    },
+    {
+      "source": "/catalog",
+      "destination": "/"
+    },
+    {
+      "source": "/authors",
       "destination": "/"
     }
   ]
