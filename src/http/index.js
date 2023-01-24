@@ -1,7 +1,7 @@
 
 import axios from 'axios'
 
-export const API_URL = `http://45.142.36.8/`
+export const API_URL = `https://nicksconn.space/`
 
 const $api = axios.create({
 	baseURL: API_URL,
