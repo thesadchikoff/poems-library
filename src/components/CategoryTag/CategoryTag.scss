@@ -1,0 +1,12 @@
+
+.tag {
+	padding: 5px 15px;
+	cursor: pointer;
+	background-color: #212042;
+	transition: filter .2s ease-in;
+
+	&:hover {
+		filter: brightness(120%);
+	}
+
+}

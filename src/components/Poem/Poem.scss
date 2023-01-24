@@ -1,0 +1,38 @@
+
+.poem-item {
+	width: 48%;
+	height: 400px;
+
+	.preview-info {
+		position: relative;
+
+		.preview {
+			width: 100%;
+			height: 300px;
+			background-position: center;
+			object-fit: cover;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+
+		.text {
+			position: absolute;
+			bottom: 5%;
+			left: 5px;
+			color: white;
+			max-width: max-content;
+			background: #00000094;
+			padding: 10px 20px;
+		}
+
+		.category {
+			position: absolute;
+			bottom: 5%;
+			right: 5px;
+			color: white;
+			max-width: max-content;
+			background: #523abc94;
+			padding: 10px 20px;
+		}
+	}
+}

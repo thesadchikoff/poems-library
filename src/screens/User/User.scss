@@ -1,0 +1,65 @@
+
+.banner {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: max-content;
+
+	.banner-image {
+		border-radius: 20px;
+		width: 100%;
+		background-position: center;
+		object-fit: cover;
+		background-size: contain;
+	}
+
+	.avatar-mobile {
+		border-radius: 10%;
+		border: 2px solid white;
+		position: relative;
+		bottom: 20px;
+		background-position: center;
+		object-fit: cover;
+		background-size: contain;
+	}
+
+	.avatar {
+		border-radius: 100%;
+		border: 5px solid white;
+		position: relative;
+		bottom: 70px;
+		background-position: center;
+		object-fit: cover;
+		background-size: contain;
+	}
+
+	.user-name {
+		position: relative;
+		font-weight: bold;
+		font-size: 18px;
+	}
+}
+
+.scroll::-webkit-scrollbar {
+	cursor: pointer;
+	width: 7px;
+}
+
+.scroll::-webkit-scrollbar-track {
+	border-radius: 20px;
+	background: rgb(209, 224, 249);
+	/* цвет дорожки */
+}
+
+.scroll::-webkit-scrollbar-thumb {
+	background-color: rgb(107, 107, 228);
+	/* цвет плашки */
+	border-radius: 20px;
+	/* закругления плашки */
+	border: 2px solid rgb(209, 224, 249);
+	/* padding вокруг плашки */
+}
+
+
+

@@ -1,0 +1,29 @@
+
+.word {
+	letter-spacing: 1px;
+}
+
+.author {
+	background: linear-gradient(267.04deg, #9B7EEA 0%, #E8A87C 100%);
+	filter: drop-shadow(0px 0px 15px rgba(155, 126, 234, 0.5));
+}
+
+.default {
+	filter: drop-shadow(0px 0px 15px rgba(19, 131, 234, 0.5));
+	background: linear-gradient(267.04deg, #1383EA 0%, #15426C 100%);
+}
+
+.admin {
+	background: linear-gradient(267.04deg, #EA1313 0%, #8E0F0F 100%);
+	filter: drop-shadow(0px 0px 15px rgba(234, 19, 19, 0.5));
+}
+
+.support {
+	background: linear-gradient(267.04deg, #2096C8 0%, #66B2F9 100%);
+	filter: drop-shadow(0px 0px 15px rgba(32, 150, 200, 0.5));
+}
+
+.moderator {
+	filter: drop-shadow(0px 0px 15px rgba(24, 200, 158, 0.5));
+	background: linear-gradient(267.04deg, #18C89E 0%, #174A3B 100%);
+}
